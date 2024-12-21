@@ -1,20 +1,3 @@
-/********** STYLES PROJET #2: BOUTIQUE ECOMMERCE *********
-
-Les styles de ce fichier servent à se concentrer principalement sur
-l'utilisation des composants et ne modifient que très peu l'esthétique de la page.
-
-Vous pouvez toutefois l'analyser et le manipuler plus en détail 
-si vous souhaitez vous familiariser un peu plus avec le CSS.
-
-Bonne session,
-Valentin
-
- ************************************************/
-
- /********** STYLE DU TOAST **********/
-
-/* ajouter les propriétés CSS liées au toast */
-
 /********** STYLE DU CAROUSEL **********/
 
 #carousel-boutique img {
@@ -24,7 +7,7 @@ Valentin
 
 /********** STYLE DES CARDS / LISTE DE PRODUITS **********/
 
-.card {
+/* .card {
     transition: .3s ease-out;
 }
 
@@ -52,8 +35,8 @@ Valentin
 }
 
 /********** STYLE DU FOOTER **********/
-
+/*
 .footer {
     background: #F1F1F1;
     padding: 40px 0;
-}
+} */

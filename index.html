@@ -46,7 +46,23 @@
             </div>
         </div>
     </nav>
-    
+    <!-- mise en place du caroussel -->
+    <div id="carousel-boutique" class="caroussel slide" data-ride="caroussel">
+        <ol class="caroussel-indicators">
+            <li class="active" data-target="#carousel-boutique" data-slide-to="0"></li>
+            <li data-target="#carousel-boutique" data-slide-to="1"></li>
+            <li data-target="#carousel-boutique" data-slide-to="2"></li>
+        </ol>
+        <div class="caroussel-inner">
+            <div class="caroussel-item active">
+                <img src="./images/slider-produit-1.jpg" alt="produit-1">
+                <div class="caroussel-caption d-none d-md-block">
+                    <h5>Le nouvel ordinateur de chez Anidassor</h5>
+                    <p>Une puissance inégalable</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
@@ -55,5 +71,4 @@
         crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>
-
 </html>
